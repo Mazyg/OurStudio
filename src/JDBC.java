@@ -11,6 +11,7 @@ public class JDBC {
         }
         catch (Exception e){
             System.out.println(e);
+
         }
         try{
             con = DriverManager.getConnection(uri,"root","123456");
