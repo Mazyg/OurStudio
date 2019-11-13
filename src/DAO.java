@@ -4,10 +4,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class DAO {
-    Connection con;
+    /*Connection con;
     ResultSet rs;
     PreparedStatement preSql;
-    int rs1;
+    int rs1;*/
     public static PreparedStatement getPreparedStatement(Connection con, String sql, Object[] obj){
         PreparedStatement preSql=null;
         if(con!=null){
